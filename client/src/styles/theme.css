@@ -1,0 +1,143 @@
+:root {
+  --primary: #003161;
+  --secondary: rgb(255, 170, 0);
+}
+
+
+*{
+  color:rgba(0, 0, 0, 0.8);
+}
+
+/*bg colors*/
+.primary {
+  background-color: var(--primary);
+}
+
+.secondary {
+  background-color: var(--secondary);
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+}
+
+/*BORDER COLOURS*/
+.primary-border {
+  border: 2px solid var(--primary);
+}
+
+.secondary-border {
+  border: 2px solid var(--secondary);
+}
+
+/*text colors*/
+.primary-text {
+  color: var(--primary);
+}
+
+.secondary-text {
+  color: var(--secondary);
+}
+
+.text-black {
+  color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.text-white {
+  color: white !important;
+}
+
+/*font sizes*/
+
+.text-mini {
+  font-size: 16px !important;
+}
+.text-small {
+  font-size: 18px !important;
+}
+
+.text-medium {
+  font-size: 24px;
+}
+
+.text-large {
+  font-size: 36px;
+}
+
+/*Height and width*/
+.h-screen {
+  height: 100vh;
+}
+
+.w-screen {
+  width: 100wh;
+}
+
+.w-400 {
+  width: 400px;
+}
+
+.w-300 {
+  width: 300px;
+}
+
+.w-120 {
+  width: 120px;
+}
+/*Cards*/
+
+.card-md {
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.card-sm {
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+/* html elements */
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+input {
+  border-radius: 0;
+  height: 40px !important;
+  border: 2px solid rgb(85, 85, 85) !important;
+  width: 100%;
+  padding-left: 20px;
+}
+
+input:focus {
+  border: 2px solid var(--primary) !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+button {
+  border-radius: 0;
+  height: 40px !important;
+  border: none !important;
+}
+
+a {
+  color: black !important;
+}
+
+h1 {
+  margin-bottom: 0 !important;
+}
+
+i {
+  cursor: pointer;
+  font-size: 22px;
+}
+
+/* antd override */
+.ant-form-item {
+  margin-bottom: 5px !important;
+}
